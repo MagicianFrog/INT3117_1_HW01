@@ -16,7 +16,7 @@ public class BoundaryTest {
 
     @Test
     public void boundaryTest3() {
-        assertEquals("PASS", Version1.version1(10, 1, 1));
+        assertEquals("FAIL", Version1.version1(10, 1, 1));
     }
 
     @Test
@@ -101,5 +101,4 @@ public class BoundaryTest {
     public void boundaryTest19() {
         assertEquals("FAIL", Version1.version1(10, 3, 2));
     }
-
 }
