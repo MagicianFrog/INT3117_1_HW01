@@ -1,5 +1,5 @@
 public class Version1 {
-    public static String version1(int a, int b, int c) {
+    public static String solution(int a, int b, int c) {
         double confidence = 0;
         for (int i = 1; i <= a; i++) {
             if (i <= 6) {
