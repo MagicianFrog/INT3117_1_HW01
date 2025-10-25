@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class ControlFlowTestV1 {
 
     private String version(int a, int b, int c) {
-        return Version1.solution(a, b, c);
+        return Version1.sol(a, b, c);
     }
 
     @Test
